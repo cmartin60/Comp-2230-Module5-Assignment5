@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Rover Photos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mars Rover Photo Gallery</h1>
+    </header>
+
+    <main>
+        <!-- Date Selection Form -->
+        <section id="date-selector">
+            <label for="date-input">Select Date:</label>
+            <input type="date" id="date-input" aria-label="Date input for selecting Mars Rover photos">
+            <button id="load-photos-button">Load Photos</button>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section id="photo-gallery" aria-live="polite">
+            <h2>Photos from Mars Rover</h2>
+            <p id="gallery-description"></p>
+            <div id="photos-container"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
