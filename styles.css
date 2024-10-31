@@ -44,3 +44,25 @@ main {
     font-size: 0.9em;
     text-align: center;
 }
+
+@media (min-width: 600px) {
+    #date-selector {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    input[type="date"] {
+        margin-right: 10px;
+    }
+}
+
+.photo {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto;
+}
